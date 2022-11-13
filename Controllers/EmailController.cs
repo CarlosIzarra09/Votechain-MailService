@@ -34,7 +34,7 @@ namespace PRY20220278.Controllers
         
         [HttpPost("send-email")]
         [SwaggerOperation(Summary = "Send an Email to an User")]
-        [ProducesResponseType(typeof(AcceptedResult), 202)]
+        [ProducesResponseType(typeof(EmailResponse), 202)]
         [ProducesResponseType(typeof(BadRequestResult), 400)]
         [ProducesResponseType(typeof(UnauthorizedResult), 401)]
         public async Task<IActionResult> SendEmailTo([FromBody] SaveEmailResource resource)

@@ -65,12 +65,13 @@ namespace PRY20220278
             services.AddRouting(options => options.LowercaseUrls = true); 
             services.AddAutoMapper(typeof(Startup));
             
-            //Sengrid
+            /////////////7Sengrid
             services.AddSendGrid(option =>
             {
                 option.ApiKey = Configuration.GetSection("SendGridEmailSettings")
                     .GetValue<string>("APIKey");
             });
+            ///////////////////////////
             
             services.AddSwaggerGen(c =>
             {
