@@ -8,7 +8,7 @@ namespace PRY20220278.Domain.Services.Communications
         {
         }
 
-        public EmailResponse(string message) : base(message)
+        public EmailResponse(string message, int statusCode) : base(message,statusCode)
         {
         }
     }

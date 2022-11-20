@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email OTP - Votum</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #F0F8FF;
+            font-family: "Roboto";
+
+        }
+
+
+        #email-header{
+            width:80%;
+            margin-left:auto;
+            margin-right:auto;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: auto;
+            padding: 20px 20px 25px 20px;
+
+            max-width: 700px;
+            gap: 40px;
+        }
+
+        #email-header .email-header__logo{
+            object-fit: contain;
+            height: 20px;
+        }
+
+        #email-header .email-header__title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        #email-content{
+            width:80%;
+            margin-left:auto;
+            margin-right:auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            max-width: 700px;
+            height: auto;
+            border-radius: 10px;
+            gap: 15px;
+        }
+
+        #email-content .email-content__icon{
+            padding: 25px 0;
+            object-fit: contain;
+            height: 100px;
+        }
+
+        #email-content .email-content__text{
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            gap: 25px;
+            max-width: 400px;
+        }
+        #email-content .email-content__text h1{
+            font-size: 24px;
+        }
+        #email-content .email-content__text h3{
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+        }
+        #email-content .email-content__text .text__otp-code{
+            padding: 20px 40px;
+            border: 2px solid #0B9BF5;
+            border-radius: 5px;
+        }
+        #email-content .email-content__text .text__otp-code p{
+            font-weight: 800;
+            font-size: 28px;
+            letter-spacing: 5px;
+        }
+
+        #email-content .email-content__credits{
+            background-color: #E0E0E7;
+            width: 100%;
+        }
+
+        #email-content .email-content__credits p{
+            padding: 15px 20px;
+            font-size: 12px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="email-header">
+            <img class="email-header__logo" src="https://res.cloudinary.com/dundihhbj/image/upload/v1668905835/Sengrid%20email/VOTUM_kvyevl.png"
+                 alt="logo.png"
+            >
+            <h2 class="email-header__title">Servicio de verificación de identitad</h2>
+        </div>
+    </header>
+    <div id="email-content">
+        <img class="email-content__icon" src="https://res.cloudinary.com/dundihhbj/image/upload/v1668907929/Sengrid%20email/icon-thumbprint-lock_kitdtz.webp"/>
+        <div class="email-content__text">
+            <h1>Confirme su voto con este código:</h1>
+            <h3>Introduzca este código de autenticación en la aplicación.</h3>
+            <div class="text__otp-code">
+                <p>01235</p>
+            </div>
+            <p>Este código caduca en 1 minuto.</p>
+        </div>
+        <div class="email-content__credits">
+            <p>Ha recibido este mensaje para confirmar su identidad. Si no ha solicitado este código, puede ignorar este mensaje.</p>
+        
+        </div>
+    </div>
+</body>
+</html>

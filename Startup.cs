@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using PRY20220278.Domain.Services;
+using PRY20220278.Services;
 using PRY20220278.Settings;
 using SendGrid.Extensions.DependencyInjection;
 using ExceptionHandlerMiddleware = PRY20220278.Exceptions.ExceptionHandlerMiddleware;
@@ -64,6 +66,7 @@ namespace PRY20220278
             
             services.AddRouting(options => options.LowercaseUrls = true); 
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<IEmailService, EmailService>();
             
             /////////////7Sengrid
             services.AddSendGrid(option =>
