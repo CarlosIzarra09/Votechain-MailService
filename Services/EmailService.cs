@@ -46,7 +46,7 @@ namespace VotechainMails.Services
 
         public async Task<EmailResponse> SendHtml(Email email, string fromName, string fromEmail)
         {
-            string path = Path.Combine(Environment.CurrentDirectory, @"Assets\EmailTemplates\EmailWithOTP.html");
+            string path = Path.Combine(Environment.CurrentDirectory, @"Assets/EmailTemplates/EmailWithOTP.html");
             string htmlContent = await File.ReadAllTextAsync(path);
             int otpCode = 789456;
             
