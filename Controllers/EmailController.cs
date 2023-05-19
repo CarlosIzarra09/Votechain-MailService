@@ -6,16 +6,16 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using PRY20220278.Domain.Models;
-using PRY20220278.Domain.Services;
-using PRY20220278.Domain.Services.Communications;
-using PRY20220278.Extentions;
-using PRY20220278.Resources;
+using VotechainMails.Domain.Models;
+using VotechainMails.Domain.Services;
+using VotechainMails.Domain.Services.Communications;
+using VotechainMails.Extentions;
+using VotechainMails.Resources;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace PRY20220278.Controllers
+namespace VotechainMails.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]

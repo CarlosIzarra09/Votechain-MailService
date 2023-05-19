@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PRY20220278.Extentions
+namespace VotechainMails.Extentions
 {
     public static class ModelStateExtensions
     {

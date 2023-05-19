@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRY20220278", "PRY20220278.csproj", "{FDA6D073-767A-4273-9299-E5DACDEAFE79}"
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotechainMails", "VotechainMails.csproj", "{FDA6D073-767A-4273-9299-E5DACDEAFE79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

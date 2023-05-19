@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace PRY20220278.Extensions
+namespace VotechainMails.Extensions
 {
     public static class StringExtensions
     {

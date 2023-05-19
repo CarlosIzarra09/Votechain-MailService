@@ -1,4 +1,4 @@
-﻿namespace PRY20220278.Domain.Models
+﻿namespace VotechainMails.Domain.Models
 {
     public class Email
     {

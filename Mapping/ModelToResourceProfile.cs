@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using PRY20220278.Domain.Models;
-using PRY20220278.Resources;
+using VotechainMails.Domain.Models;
+using VotechainMails.Resources;
 
-namespace PRY20220278.Mapping
+namespace VotechainMails.Mapping
 {
     public class ModelToResourceProfile : Profile
     {

@@ -1,4 +1,4 @@
-﻿namespace PRY20220278.Domain.Services.Communications
+﻿namespace VotechainMails.Domain.Services.Communications
 {
     public abstract class BaseResponse<T>
     {

@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using PRY20220278.Domain.Models;
-using PRY20220278.Domain.Services.Communications;
+using VotechainMails.Domain.Models;
+using VotechainMails.Domain.Services.Communications;
 
-namespace PRY20220278.Domain.Services
+namespace VotechainMails.Domain.Services
 {
     public interface IEmailService 
     {

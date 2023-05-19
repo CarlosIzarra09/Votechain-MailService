@@ -1,6 +1,6 @@
-﻿using PRY20220278.Domain.Models;
+﻿using VotechainMails.Domain.Models;
 
-namespace PRY20220278.Domain.Services.Communications
+namespace VotechainMails.Domain.Services.Communications
 {
     public class EmailResponse :BaseResponse<Email>
     {

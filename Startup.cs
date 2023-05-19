@@ -14,13 +14,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using PRY20220278.Domain.Services;
-using PRY20220278.Services;
-using PRY20220278.Settings;
+using VotechainMails.Domain.Services;
+using VotechainMails.Services;
+using VotechainMails.Settings;
 using SendGrid.Extensions.DependencyInjection;
-using ExceptionHandlerMiddleware = PRY20220278.Exceptions.ExceptionHandlerMiddleware;
+using ExceptionHandlerMiddleware = VotechainMails.Exceptions.ExceptionHandlerMiddleware;
 
-namespace PRY20220278
+namespace VotechainMails
 {
     public class Startup
     {
@@ -78,7 +78,7 @@ namespace PRY20220278
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PRY20220278", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "VotechainMails", Version = "v1" });
                 c.EnableAnnotations();
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -121,7 +121,7 @@ namespace PRY20220278
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "PRY20220278 v1");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "VotechainMails v1");
                     c.RoutePrefix = string.Empty;
                 });
             }

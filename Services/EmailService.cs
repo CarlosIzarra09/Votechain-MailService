@@ -4,13 +4,13 @@ using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
 using Castle.Core.Configuration;
-using PRY20220278.Domain.Models;
-using PRY20220278.Domain.Services;
-using PRY20220278.Domain.Services.Communications;
+using VotechainMails.Domain.Models;
+using VotechainMails.Domain.Services;
+using VotechainMails.Domain.Services.Communications;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace PRY20220278.Services
+namespace VotechainMails.Services
 {
     public class EmailService : IEmailService
     {

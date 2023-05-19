@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace PRY20220278.Exceptions
+namespace VotechainMails.Exceptions
 {
     public class ExceptionHandlerMiddleware
     {

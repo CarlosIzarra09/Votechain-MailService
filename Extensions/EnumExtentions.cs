@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.ComponentModel;
 
-namespace PRY20220278.Extensions
+namespace VotechainMails.Extensions
 {
     static class EnumExtensions
     {

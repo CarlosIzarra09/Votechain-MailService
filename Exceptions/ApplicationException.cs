@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace PRY20220278.Exceptions
+namespace VotechainMails.Exceptions
 {
     public class ApplicationException :Exception
     {

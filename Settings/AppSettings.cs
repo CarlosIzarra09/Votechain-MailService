@@ -1,4 +1,4 @@
-﻿namespace PRY20220278.Settings
+﻿namespace VotechainMails.Settings
 {
     public class AppSettings
     {

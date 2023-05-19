@@ -1,4 +1,4 @@
-﻿namespace PRY20220278.Resources
+﻿namespace VotechainMails.Resources
 {
     public class EmailResource
     {

@@ -1,0 +1,28 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{FDA6D073-767A-4273-9299-E5DACDEAFE79}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/EmailService.cs">
+    <Files>
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="appsettings.json" Line="8" Column="23" />
+      <File FileName="global.json" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Settings/AppSettings.cs" />
+      <File FileName="Dockerfile" />
+      <File FileName="Assets/EmailTemplates/EmailWithOtp.html" />
+      <File FileName="Services/EmailService.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.VotechainMails PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
